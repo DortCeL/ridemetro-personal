@@ -7,7 +7,7 @@ export default {
 			backgroundImage: {
 				bannerImage: "url('dhaka-city.jpg')",
 				blackOverlay:
-					"linear-gradient(to bottom, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.8) 100%)",
+					"linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%)",
 			},
 
 			borderRadius: {
