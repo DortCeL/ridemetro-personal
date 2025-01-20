@@ -32,8 +32,13 @@ export default function DateAndTime() {
 		<>
 			<div className='flex flex-col gap-4'>
 				<div className='text-center text-3xl text-white space-y-2 flex flex-row mx-20 justify-between'>
-					<div>{time.toLocaleDateString()}</div>
-					<div>{time.toLocaleTimeString()}</div>
+					<div className='rounded-full bg-white/50 text-black backdrop-blur-md p-4'>
+						{time.toLocaleDateString()}
+					</div>
+
+					<div className='rounded-full bg-white/50 text-black backdrop-blur-md p-4'>
+						{time.toLocaleTimeString()}
+					</div>
 				</div>
 
 				<div className='p-4 rounded-full bg-white text-black text-center block w-fit mx-auto'>
